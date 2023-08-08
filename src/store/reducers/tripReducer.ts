@@ -6,11 +6,34 @@ const SET_TRIPS = 'SET_TRIPS'
 
 
 const initialState: ITripsState = {
-    searchValue: '',
-    trips: []
+    searchValue: 'Hello',
+    trips: [
+        {
+            id: 1,
+            name: "Odessa",
+            startDate: '2023 - 08-08',
+            endDate: '2023-08-15',
+            isActive: true
+        },
+        {
+            id: 2,
+            name: "Constanta",
+            startDate: '2023 - 08-08',
+            endDate: '2023-08-15',
+            isActive: false
+        },
+        {
+            id: 3,
+            name: "Kiev",
+            startDate: '2023 - 08-08',
+            endDate: '2023-08-15',
+            isActive: false
+        },
+    ]
 }
 
 export const tripReducer = (state: ITripsState = initialState, action: IDispatchAction) => {
+
     switch (action.type) {
         case SET_TRIPS:
             if (action.trips)
