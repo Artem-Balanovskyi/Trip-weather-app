@@ -1,5 +1,6 @@
 import React from "react";
 import s from "./WeatherForecastPage.module.css";
+import TripsContainer from "../../components/Trips/TripsContainer";
 
 export function WeatherForecastPage() {
     return (
@@ -13,9 +14,9 @@ export function WeatherForecastPage() {
                         <input type="text" placeholder="Seatch your trip"/>
                     </div>
                     <div className="trips_list">
-                        Trips
+                        <TripsContainer/>
                     </div>
-                    
+
                 </div>
                 <div className={s.selected_trip}>
                     Selected Trip

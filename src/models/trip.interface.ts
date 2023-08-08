@@ -1,7 +1,7 @@
 export interface ITrip {
-    id: string,
+    id: number,
     name: string,
-    startDate: Date,
-    endDate: Date,
+    startDate: string,
+    endDate: string,
     isActive: boolean
 }
