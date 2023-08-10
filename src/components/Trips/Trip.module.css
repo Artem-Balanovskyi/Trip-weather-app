@@ -1,3 +1,26 @@
 .container {
-    background: red;
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: left;
+
+}
+
+.trip_image {
+    height: 200px;
+}
+
+.trip_image img {
+    height: 200px;
+    width: 200px;
+}
+
+.trip_name {
+    font-size: 20px;
+    height: 50px;
+}
+.trip_dates {
+    font-size: 14px;
+    color: grey;
+    height: 50px;
 }

@@ -40,6 +40,3 @@ export const persistor = persistStore(store)
 // @ts-ignore
 window.store = store
 export default store
-
-// todo: delete this comment
-// export type RootState = ReturnType<typeof store.getState>
