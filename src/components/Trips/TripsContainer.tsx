@@ -4,7 +4,7 @@ import {IState} from "../../models/state.models/state.interface";
 import {Trips} from "./Trips";
 
 let mapStateToProps = (state: IState) => {
-debugger
+
     return {
         tripsPageState: state.tripsPageState
     }
@@ -26,8 +26,7 @@ let mapDispatchToProps = (dispatch: Function) => {
             } catch (err) {
                 console.log(`fetchWeatherForecast: ${err}`)
             }
-        }
-
+        },
     }
 }
 
