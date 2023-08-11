@@ -12,6 +12,6 @@
 }
 
 .selected_trip {
-    background: darkblue;
+    background: darkgrey;
     flex-grow: 1;
 }
