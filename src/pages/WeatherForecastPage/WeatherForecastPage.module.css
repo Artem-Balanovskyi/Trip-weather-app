@@ -11,6 +11,19 @@
     flex-grow: 2;
 }
 
+.flex_wrapper {
+    display: flex;
+}
+.trips_list {
+overflow: auto;
+    height: 300px;
+}
+
+.add_trip {
+    background: lightgoldenrodyellow;
+    width: initial;
+}
+
 .selected_trip {
     background: darkgrey;
     flex-grow: 1;
