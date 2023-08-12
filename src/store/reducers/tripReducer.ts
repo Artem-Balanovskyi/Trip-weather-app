@@ -31,6 +31,54 @@ const initialState: ITripsState = {
             endDate: '2023-08-15',
             isActive: false
         },
+        {
+            id: 4,
+            name: "Odessa",
+            image: "https://lp-cms-production.imgix.net/2019-06/a75115c4c0810eb44880443a7f0324ae-lpl-odesa_opera_ballet_theatre.jpg",
+            startDate: '2023-08-08',
+            endDate: '2023-08-15',
+            isActive: true
+        },
+        {
+            id: 5,
+            name: "Constanta",
+            image: "https://www.rjontour.com/wp-content/uploads/2020/04/Constanta-Casino-1024x750.jpg.webp",
+            startDate: '2023-08-08',
+            endDate: '2023-08-15',
+            isActive: false
+        },
+        {
+            id: 6,
+            name: "Kiev",
+            image: "https://media.istockphoto.com/id/1347233654/photo/motherland.jpg?s=612x612&w=0&k=20&c=afq2AFIEg-EHjVjq_9qUmnDTUMeDQXhWXnRtrVrOuD4=",
+            startDate: '2023-08-08',
+            endDate: '2023-08-15',
+            isActive: false
+        },
+        {
+            id: 7,
+            name: "Odessa",
+            image: "https://lp-cms-production.imgix.net/2019-06/a75115c4c0810eb44880443a7f0324ae-lpl-odesa_opera_ballet_theatre.jpg",
+            startDate: '2023-08-08',
+            endDate: '2023-08-15',
+            isActive: true
+        },
+        {
+            id: 8,
+            name: "Constanta",
+            image: "https://www.rjontour.com/wp-content/uploads/2020/04/Constanta-Casino-1024x750.jpg.webp",
+            startDate: '2023-08-08',
+            endDate: '2023-08-15',
+            isActive: false
+        },
+        {
+            id: 9,
+            name: "Kiev",
+            image: "https://media.istockphoto.com/id/1347233654/photo/motherland.jpg?s=612x612&w=0&k=20&c=afq2AFIEg-EHjVjq_9qUmnDTUMeDQXhWXnRtrVrOuD4=",
+            startDate: '2023-08-08',
+            endDate: '2023-08-15',
+            isActive: false
+        },
     ]
 }
 
