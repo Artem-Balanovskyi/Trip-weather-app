@@ -25,6 +25,6 @@ overflow: auto;
 }
 
 .selected_trip {
-    background: lightgray;
+    background: lightgreen;
     flex-grow: 1;
 }
